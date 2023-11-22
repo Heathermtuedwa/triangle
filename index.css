@@ -1,0 +1,36 @@
+
+body {
+    font-family: sans-serif;
+    background-image: url(/color/dark-gradient.jpg);
+    color: rgba(255, 255, 255, 0.445);
+    text-align: center;
+  }
+  .inline {  
+    display:inline;
+   
+  }
+  hr {
+    width: 100px;
+    color: #2d0e0e;
+
+  }
+  button{
+    border-radius: 30%;
+    width: 10rem;
+  }
+  div{
+    margin-top: 10%;
+    margin-left: 40%;
+    top:50px;
+    left:50;
+    position:absolute;
+  }
+  h1{
+    animation: changeColor 5s infinite; 
+}
+
+@keyframes changeColor {
+    0% { color:gray; }
+    25% { color:teal; }
+    50% { color:darkblue; }
+}
